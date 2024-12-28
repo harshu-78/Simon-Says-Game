@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+}
+.btn {
+    border-radius: 20%;
+    margin: 5%;
+    height: 20vw;
+    width: 20vw;
+    max-height: 200px;
+    max-width: 200px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 2.5em; /* Responsive font size */
+}
+
+h2 {
+    font-size: 1.5em; /* Responsive font size */
+}
+.btn-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.red {
+    background-color:#e73838;
+}
+.orange {
+    background-color: #f99b45;
+}
+.green {
+    background-color:#14d189;
+}
+.blue {
+    background-color: #5b7fec;
+}
+
+.flash {
+    background-color: white;
+}
+
+.userflash {
+    background-color: green;
+}
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em; /* Smaller font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 1.2em; /* Smaller font size for smaller screens */
+    }
+
+    .btn {
+        margin: 4%;
+        height: 25vw; /* Adjust button size for smaller screens */
+        width: 25vw; /* Adjust button size for smaller screens */
+    }
+}
+
+@media (max-width: 400px) {
+    h1 {
+        font-size: 1.5em; /* Even smaller font size */
+    }
+
+    h2 {
+        font-size: 1em; /* Even smaller font size */
+    }
+
+    .btn {
+        margin: 4%;
+        height: 30vw; /* Further adjust button size */
+        width: 30vw; /* Further adjust button size */
+    }
+}
+
