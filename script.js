@@ -87,3 +87,13 @@ function reset() {
 
 }
 
+function startGame() {
+    if (started == false) {
+        console.log("Game is started");
+        started = true;
+        levelUp();
+    }
+}
+
+document.addEventListener("keypress", startGame);
+document.addEventListener("touchstart", startGame);
